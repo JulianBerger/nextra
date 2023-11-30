@@ -2,12 +2,10 @@ name: Release
 
 on:
   push:
-    branches: [main, v3]
+    branches: [main, v3, middleware-rewrite-fix]
 
 jobs:
   release:
-    if: github.repository == 'shuding/nextra'
-
     runs-on: ubuntu-latest
 
     steps:
