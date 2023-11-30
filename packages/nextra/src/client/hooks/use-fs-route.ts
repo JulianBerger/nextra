@@ -11,7 +11,7 @@ export const useFSRoute = () => {
     // because for the 404 route `asPath` will be redirected URL and `normalizePages` will never return correct pageItem
     const clientRoute = ERROR_ROUTES.has(route) ? route : pathname
 
-    const { pathname } = new URL(clientRoute, template)
+    const path = new URL(clientRoute, template).pathname
 
     const cleanedPath = locale
       ? pathname.replace(new RegExp(`\\.${locale}(\\/|$)`), '$1')
