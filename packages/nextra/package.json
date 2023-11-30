@@ -1,5 +1,5 @@
 {
-  "name": "nextra",
+  "name": "@julianberger/nextra",
   "version": "3.0.0-alpha.11",
   "type": "module",
   "description": "Next.js and MDX based site generator.",
