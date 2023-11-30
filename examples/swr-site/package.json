@@ -16,21 +16,21 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
+    "@julianberger/nextra": "workspace:*",
+    "@julianberger/nextra-theme-docs": "workspace:*",
     "focus-visible": "^5.1.0",
     "intersection-observer": "^0.10.0",
     "markdown-to-jsx": "^6.11.4",
     "next": "^13.5.6",
-    "nextra": "workspace:*",
-    "nextra-theme-docs": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^8.26.2"
   },
   "dependenciesMeta": {
-    "nextra": {
+    "@julianberger/nextra": {
       "injected": true
     },
-    "nextra-theme-docs": {
+    "@julianberger/nextra-theme-docs": {
       "injected": true
     }
   },

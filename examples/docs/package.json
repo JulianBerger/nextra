@@ -9,17 +9,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@julianberger/nextra": "workspace:*",
+    "@julianberger/nextra-theme-docs": "workspace:*",
     "next": "^13.5.6",
-    "nextra": "workspace:*",
-    "nextra-theme-docs": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "dependenciesMeta": {
-    "nextra": {
+    "@julianberger/nextra": {
       "injected": true
     },
-    "nextra-theme-docs": {
+    "@julianberger/nextra-theme-docs": {
       "injected": true
     }
   }
