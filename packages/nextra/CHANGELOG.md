@@ -1,5 +1,11 @@
 # nextra
 
+## 3.0.0-alpha.12
+
+### Major Changes
+
+- 44beb5ee: middleware fix
+
 ## 3.0.0-alpha.11
 
 ### Major Changes

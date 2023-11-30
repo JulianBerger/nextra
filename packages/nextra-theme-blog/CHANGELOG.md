@@ -1,5 +1,16 @@
 # nextra-theme-blog
 
+## 3.0.0-alpha.12
+
+### Major Changes
+
+- 44beb5ee: middleware fix
+
+### Patch Changes
+
+- Updated dependencies [44beb5ee]
+  - nextra@3.0.0-alpha.12
+
 ## 3.0.0-alpha.11
 
 ### Major Changes
