@@ -1,6 +1,6 @@
 /* eslint sort-keys: error */
+import { DiscordIcon, GitHubIcon } from '@julianberger/nextra/icons'
 import { useRouter } from 'next/router'
-import { DiscordIcon, GitHubIcon } from 'nextra/icons'
 import { isValidElement } from 'react'
 import type { z } from 'zod'
 import {

@@ -1,4 +1,4 @@
-import { useRouter } from 'nextra/hooks'
+import { useRouter } from '@julianberger/nextra/hooks'
 
 export function useDraw(paths = {}, name = '') {
   const { locale, defaultLocale } = useRouter()

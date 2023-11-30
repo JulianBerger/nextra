@@ -1,6 +1,6 @@
 /* eslint typescript-sort-keys/interface: error */
-import type { PageOpts } from 'nextra'
-import type { MDXComponents } from 'nextra/mdx'
+import type { PageOpts } from '@julianberger/nextra'
+import type { MDXComponents } from '@julianberger/nextra/mdx'
 import type { ReactNode } from 'react'
 
 export interface NextraBlogTheme {

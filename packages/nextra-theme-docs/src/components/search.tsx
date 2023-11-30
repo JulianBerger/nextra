@@ -1,10 +1,10 @@
 import { Transition } from '@headlessui/react'
+import { useMounted } from '@julianberger/nextra/hooks'
+import { InformationCircleIcon, SpinnerIcon } from '@julianberger/nextra/icons'
 import cn from 'clsx'
 // eslint-disable-next-line no-restricted-imports -- since we don't need newWindow prop
 import NextLink from 'next/link'
 import { useRouter } from 'next/router'
-import { useMounted } from 'nextra/hooks'
-import { InformationCircleIcon, SpinnerIcon } from 'nextra/icons'
 import type { CompositionEvent, KeyboardEvent, ReactElement } from 'react'
 import { Fragment, useCallback, useEffect, useRef, useState } from 'react'
 import { useMenu, useThemeConfig } from '../contexts'

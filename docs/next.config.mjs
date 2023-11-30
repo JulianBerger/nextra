@@ -1,5 +1,5 @@
 import path from 'node:path'
-import nextra from 'nextra'
+import nextra from '@julianberger/nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',

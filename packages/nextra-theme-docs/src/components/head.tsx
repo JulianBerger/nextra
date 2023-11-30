@@ -1,6 +1,6 @@
+import { useMounted } from '@julianberger/nextra/hooks'
 import { useTheme } from 'next-themes'
 import NextHead from 'next/head'
-import { useMounted } from 'nextra/hooks'
 import type { ReactElement } from 'react'
 import { useThemeConfig } from '../contexts'
 

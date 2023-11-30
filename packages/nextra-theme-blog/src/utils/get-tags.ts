@@ -1,4 +1,4 @@
-import type { MdxFile, PageMapItem } from 'nextra'
+import type { MdxFile, PageMapItem } from '@julianberger/nextra'
 import type { BlogFrontMatter } from '../types'
 
 export function split(tags: string | string[] = ''): string[] {

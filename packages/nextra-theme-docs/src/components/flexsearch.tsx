@@ -1,8 +1,8 @@
+import type { SearchData } from '@julianberger/nextra'
+import { useRouter } from '@julianberger/nextra/hooks'
 import cn from 'clsx'
 // flexsearch types are incorrect, they were overwritten in tsconfig.json
 import FlexSearch from 'flexsearch'
-import type { SearchData } from 'nextra'
-import { useRouter } from 'nextra/hooks'
 import type { ReactElement, ReactNode } from 'react'
 import { useCallback, useState } from 'react'
 import { DEFAULT_LOCALE } from '../constants'

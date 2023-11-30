@@ -1,4 +1,4 @@
-import type { PageOpts } from 'nextra'
+import type { PageOpts } from '@julianberger/nextra'
 import type { NextraBlogTheme } from '../../src'
 
 export const indexOpts: PageOpts = {

@@ -1,5 +1,5 @@
 import { Screenshot } from 'components/screenshot'
-import { Callout, Steps } from 'nextra/components'
+import { Callout, Steps } from '@julianberger/nextra/components'
 
 # Custom Theme
 
@@ -22,7 +22,7 @@ ones. In your Next.js config, you can pass the path to your theme file to the
 Nextra plugin:
 
 ```js {4} filename="next.config.mjs"
-import nextra from 'nextra'
+import nextra from '@julianberger/nextra'
 
 const withNextra = nextra({
   theme: './theme.tsx'
@@ -38,7 +38,7 @@ You can now start working on your theme! In your root directory, create the
 corresponding `theme.tsx` file with basic content:
 
 ```tsx filename="theme.tsx" /children/
-import type { NextraThemeLayoutProps } from 'nextra'
+import type { NextraThemeLayoutProps } from '@julianberger/nextra'
 
 export default function Layout({ children }: NextraThemeLayoutProps) {
   return (
@@ -77,7 +77,7 @@ For example, let’s implement these features:
 
 ```tsx filename="theme.tsx" /pageOpts/
 import Head from 'next/head'
-import type { NextraThemeLayoutProps } from 'nextra'
+import type { NextraThemeLayoutProps } from '@julianberger/nextra'
 
 export default function Layout({ children, pageOpts }: NextraThemeLayoutProps) {
   const { title, frontMatter, toc } = pageOpts
@@ -112,7 +112,7 @@ top level:
 
 ```tsx filename="theme.tsx" /pageMap/
 import Link from 'next/link'
-import type { NextraThemeLayoutProps } from 'nextra'
+import type { NextraThemeLayoutProps } from '@julianberger/nextra'
 
 export default function Layout({ children, pageOpts }: NextraThemeLayoutProps) {
   const { pageMap } = pageOpts

@@ -1,8 +1,8 @@
+import { ArrowRightIcon } from '@julianberger/nextra/icons'
+import type { Item } from '@julianberger/nextra/normalize-pages'
 import cn from 'clsx'
 // eslint-disable-next-line no-restricted-imports -- since we don't need newWindow prop
 import NextLink from 'next/link'
-import { ArrowRightIcon } from 'nextra/icons'
-import type { Item } from 'nextra/normalize-pages'
 import type { ReactElement } from 'react'
 import { Fragment } from 'react'
 

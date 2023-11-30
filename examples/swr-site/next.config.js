@@ -1,5 +1,5 @@
+import nextra from '@julianberger/nextra'
 import bundleAnalyzer from '@next/bundle-analyzer'
-import nextra from 'nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
