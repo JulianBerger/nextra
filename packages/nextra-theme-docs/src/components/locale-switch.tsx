@@ -1,5 +1,5 @@
-import { useRouter } from '@julianberger/nextra/hooks'
-import { GlobeIcon } from '@julianberger/nextra/icons'
+import { useRouter } from '@julianbgr/nextra/hooks'
+import { GlobeIcon } from '@julianbgr/nextra/icons'
 import { addBasePath } from 'next/dist/client/add-base-path'
 import type { ReactElement } from 'react'
 import { useThemeConfig } from '../contexts'

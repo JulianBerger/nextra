@@ -4,9 +4,9 @@
   "commit": false,
   "fixed": [
     [
-      "@julianberger/nextra",
-      "@julianberger/nextra-theme-docs",
-      "@julianberger/nextra-theme-blog"
+      "@julianbgr/nextra",
+      "@julianbgr/nextra-theme-docs",
+      "@julianbgr/nextra-theme-blog"
     ]
   ],
   "linked": [],

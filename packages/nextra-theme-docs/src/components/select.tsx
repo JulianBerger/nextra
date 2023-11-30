@@ -1,6 +1,6 @@
 import { Listbox, Transition } from '@headlessui/react'
-import { useMounted } from '@julianberger/nextra/hooks'
-import { CheckIcon } from '@julianberger/nextra/icons'
+import { useMounted } from '@julianbgr/nextra/hooks'
+import { CheckIcon } from '@julianbgr/nextra/icons'
 import cn from 'clsx'
 import type { ReactElement, ReactNode } from 'react'
 import { createPortal } from 'react-dom'

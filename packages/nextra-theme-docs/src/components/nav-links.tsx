@@ -1,5 +1,5 @@
-import { ArrowRightIcon } from '@julianberger/nextra/icons'
-import type { Item } from '@julianberger/nextra/normalize-pages'
+import { ArrowRightIcon } from '@julianbgr/nextra/icons'
+import type { Item } from '@julianbgr/nextra/normalize-pages'
 import cn from 'clsx'
 // eslint-disable-next-line no-restricted-imports -- since we don't need newWindow prop
 import NextLink from 'next/link'

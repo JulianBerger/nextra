@@ -1,4 +1,4 @@
-import type { Folder, MdxFile } from '@julianberger/nextra'
+import type { Folder, MdxFile } from '@julianbgr/nextra'
 import { useRouter } from 'next/router'
 import type { LayoutProps } from '../types'
 import traverse from './traverse'

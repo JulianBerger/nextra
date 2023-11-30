@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { getPagesUnderRoute } from '@julianberger/nextra/context'
-import { useRouter } from '@julianberger/nextra/hooks'
+import { getPagesUnderRoute } from '@julianbgr/nextra/context'
+import { useRouter } from '@julianbgr/nextra/hooks'
 import Link from 'next/link'
 
 export function Blog() {

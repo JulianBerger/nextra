@@ -1,6 +1,6 @@
 import { Feature, Features } from '@components/features'
 import { ArrowRightIcon } from '@components/icons'
-import { Link } from '@julianberger/nextra-theme-docs'
+import { Link } from '@julianbgr/nextra-theme-docs'
 import cn from 'clsx'
 import { motion } from 'framer-motion'
 import Image from 'next/image'

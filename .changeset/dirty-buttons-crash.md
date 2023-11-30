@@ -3,4 +3,4 @@
 'nextra': minor
 ---
 
-add `import { useRouter } from '@julianberger/nextra/hooks'` for fetching `locale` and `defaultLocale`
+add `import { useRouter } from '@julianbgr/nextra/hooks'` for fetching `locale` and `defaultLocale`

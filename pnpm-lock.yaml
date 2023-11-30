@@ -91,10 +91,10 @@ importers:
 
   docs:
     dependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: link:../packages/nextra
-      '@julianberger/nextra-theme-docs':
+      '@julianbgr/nextra-theme-docs':
         specifier: workspace:*
         version: link:../packages/nextra-theme-docs
       '@vercel/og':
@@ -143,12 +143,12 @@ importers:
 
   examples/blog:
     dependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
-      '@julianberger/nextra-theme-blog':
+      '@julianbgr/nextra-theme-blog':
         specifier: workspace:*
-        version: file:packages/nextra-theme-blog(@julianberger/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+        version: file:packages/nextra-theme-blog(@julianbgr/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: 13.5.6
         version: 13.5.6(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)
@@ -159,19 +159,19 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     dependenciesMeta:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         injected: true
-      '@julianberger/nextra-theme-blog':
+      '@julianbgr/nextra-theme-blog':
         injected: true
 
   examples/docs:
     dependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
-      '@julianberger/nextra-theme-docs':
+      '@julianbgr/nextra-theme-docs':
         specifier: workspace:*
-        version: file:packages/nextra-theme-docs(@julianberger/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+        version: file:packages/nextra-theme-docs(@julianbgr/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: 13.5.6
         version: 13.5.6(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)
@@ -182,19 +182,19 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     dependenciesMeta:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         injected: true
-      '@julianberger/nextra-theme-docs':
+      '@julianbgr/nextra-theme-docs':
         injected: true
 
   examples/swr-site:
     dependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
-      '@julianberger/nextra-theme-docs':
+      '@julianbgr/nextra-theme-docs':
         specifier: workspace:*
-        version: file:packages/nextra-theme-docs(@julianberger/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+        version: file:packages/nextra-theme-docs(@julianbgr/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       focus-visible:
         specifier: ^5.1.0
         version: 5.2.0
@@ -230,9 +230,9 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
     dependenciesMeta:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         injected: true
-      '@julianberger/nextra-theme-docs':
+      '@julianbgr/nextra-theme-docs':
         injected: true
 
   packages/nextra:
@@ -380,7 +380,7 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: link:../nextra
       '@tailwindcss/nesting':
@@ -462,7 +462,7 @@ importers:
         specifier: ^3.22.3
         version: 3.22.3
     devDependencies:
-      '@julianberger/nextra':
+      '@julianbgr/nextra':
         specifier: workspace:*
         version: link:../nextra
       '@tailwindcss/nesting':
@@ -11648,7 +11648,7 @@ packages:
   file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
     resolution: {directory: packages/nextra, type: directory}
     id: file:packages/nextra
-    name: '@julianberger/nextra'
+    name: '@julianbgr/nextra'
     engines: {node: '>=18'}
     peerDependencies:
       next: 13.5.6
@@ -11694,12 +11694,12 @@ packages:
       - supports-color
     dev: false
 
-  file:packages/nextra-theme-blog(@julianberger/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
+  file:packages/nextra-theme-blog(@julianbgr/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
     resolution: {directory: packages/nextra-theme-blog, type: directory}
     id: file:packages/nextra-theme-blog
-    name: '@julianberger/nextra-theme-blog'
+    name: '@julianbgr/nextra-theme-blog'
     peerDependencies:
-      '@julianberger/nextra': workspace:*
+      '@julianbgr/nextra': workspace:*
       next: 13.5.6
       react: '>=16.13.1'
       react-cusdis: ^2.1.3
@@ -11708,25 +11708,25 @@ packages:
       react-cusdis:
         optional: true
     dependencies:
-      '@julianberger/nextra': file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+      '@julianbgr/nextra': file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       next: 13.5.6(@babel/core@7.21.8)(react-dom@18.2.0)(react@18.2.0)
       next-themes: 0.2.1(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  file:packages/nextra-theme-docs(@julianberger/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
+  file:packages/nextra-theme-docs(@julianbgr/nextra@3.0.0-alpha.11)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
     resolution: {directory: packages/nextra-theme-docs, type: directory}
     id: file:packages/nextra-theme-docs
-    name: '@julianberger/nextra-theme-docs'
+    name: '@julianbgr/nextra-theme-docs'
     peerDependencies:
-      '@julianberger/nextra': workspace:*
+      '@julianbgr/nextra': workspace:*
       next: 13.5.6
       react: '>=16.13.1'
       react-dom: '>=16.13.1'
     dependencies:
       '@headlessui/react': 1.7.17(react-dom@18.2.0)(react@18.2.0)
-      '@julianberger/nextra': file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+      '@julianbgr/nextra': file:packages/nextra(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       '@popperjs/core': 2.11.8
       clsx: 2.0.0
       escape-string-regexp: 5.0.0

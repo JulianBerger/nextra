@@ -1,4 +1,4 @@
-import nextra from '@julianberger/nextra'
+import nextra from '@julianbgr/nextra'
 import bundleAnalyzer from '@next/bundle-analyzer'
 
 const withNextra = nextra({

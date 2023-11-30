@@ -1,11 +1,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import '@julianberger/nextra/styles/code-block.css';
-@import '@julianberger/nextra/styles/subheading-anchor.css';
-@import '@julianberger/nextra/styles/scrollbar.css';
-@import '@julianberger/nextra/styles/steps.css';
-@import '@julianberger/nextra/styles/cards.css';
+@import '@julianbgr/nextra/styles/code-block.css';
+@import '@julianbgr/nextra/styles/subheading-anchor.css';
+@import '@julianbgr/nextra/styles/scrollbar.css';
+@import '@julianbgr/nextra/styles/steps.css';
+@import '@julianbgr/nextra/styles/cards.css';
 @import './hamburger.css';
 @import './typesetting-article.css';
 

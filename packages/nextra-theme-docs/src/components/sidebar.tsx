@@ -1,11 +1,11 @@
-import type { Heading } from '@julianberger/nextra'
-import { useFSRoute, useMounted } from '@julianberger/nextra/hooks'
-import { ArrowRightIcon, ExpandIcon } from '@julianberger/nextra/icons'
+import type { Heading } from '@julianbgr/nextra'
+import { useFSRoute, useMounted } from '@julianbgr/nextra/hooks'
+import { ArrowRightIcon, ExpandIcon } from '@julianbgr/nextra/icons'
 import type {
   Item,
   MenuItem,
   PageItem
-} from '@julianberger/nextra/normalize-pages'
+} from '@julianbgr/nextra/normalize-pages'
 import cn from 'clsx'
 import type { ReactElement } from 'react'
 import {

@@ -1,5 +1,5 @@
-import type { SearchData } from '@julianberger/nextra'
-import { useRouter } from '@julianberger/nextra/hooks'
+import type { SearchData } from '@julianbgr/nextra'
+import { useRouter } from '@julianbgr/nextra/hooks'
 import cn from 'clsx'
 // flexsearch types are incorrect, they were overwritten in tsconfig.json
 import FlexSearch from 'flexsearch'

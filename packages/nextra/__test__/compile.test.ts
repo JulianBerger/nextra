@@ -18,7 +18,7 @@ export default foo`,
     )
     expect(clean(result, false)).resolves.toMatchInlineSnapshot(`
       "/*@jsxRuntime automatic @jsxImportSource react*/
-      import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
       import foo from './foo'
@@ -44,7 +44,7 @@ export { foo as default } from './foo'`,
     )
     expect(clean(result, false)).resolves.toMatchInlineSnapshot(`
       "/*@jsxRuntime automatic @jsxImportSource react*/
-      import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
       import { foo as MDXLayout } from './foo'
@@ -109,7 +109,7 @@ export const TagName = () => {
       { mdxOptions }
     )
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = 'My Header'
       const frontMatter = {}
       export function useTOC(props) {
@@ -182,7 +182,7 @@ export const TagName = () => {
   it('use github-slugger', async () => {
     const { result } = await compileMdx('### My Header', { mdxOptions })
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
       export function useTOC(props) {
@@ -242,7 +242,7 @@ import Last from './three.mdx'
       { mdxOptions, latex: true }
     )
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
       import FromMdx, { useTOC as useTOC0 } from './one.mdx'

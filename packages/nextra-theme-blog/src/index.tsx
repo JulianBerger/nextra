@@ -1,5 +1,5 @@
-import type { NextraThemeLayoutProps } from '@julianberger/nextra'
-import { MDXProvider } from '@julianberger/nextra/mdx'
+import type { NextraThemeLayoutProps } from '@julianbgr/nextra'
+import { MDXProvider } from '@julianbgr/nextra/mdx'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import { useRef } from 'react'

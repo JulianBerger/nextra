@@ -246,7 +246,7 @@ export async function collectPageMap({
     })
 
     footer = `
-import { resolvePageMap } from '@julianberger/nextra/page-map-dynamic'
+import { resolvePageMap } from '@julianbgr/nextra/page-map-dynamic'
 
 if (typeof window === 'undefined') {
   globalThis.__nextra_resolvePageMap ||= Object.create(null)

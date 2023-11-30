@@ -1,4 +1,4 @@
-import { useData } from '@julianberger/nextra/hooks'
+import { useData } from '@julianbgr/nextra/hooks'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
 import { getStaticTags } from './utils/get-tags'

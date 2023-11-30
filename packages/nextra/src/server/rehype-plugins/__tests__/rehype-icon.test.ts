@@ -32,7 +32,7 @@ describe('rehypeIcon', () => {
 
     const file = await process(raw)
     expect(clean(file)).resolves.toMatchInlineSnapshot(`
-      "import { CssIcon } from '@julianberger/nextra/icons'
+      "import { CssIcon } from '@julianbgr/nextra/icons'
       function _createMdxContent(props) {
         const _components = {
           code: 'code',
@@ -64,12 +64,12 @@ describe('rehypeIcon', () => {
 
     const file = await process(raw)
     expect(clean(file)).resolves.toMatchInlineSnapshot(`
-      "import { JavaScriptIcon } from '@julianberger/nextra/icons'
-      import { TypeScriptIcon } from '@julianberger/nextra/icons'
-      import { MarkdownIcon } from '@julianberger/nextra/icons'
-      import { MdxIcon } from '@julianberger/nextra/icons'
-      import { TerminalIcon } from '@julianberger/nextra/icons'
-      import { CssIcon } from '@julianberger/nextra/icons'
+      "import { JavaScriptIcon } from '@julianbgr/nextra/icons'
+      import { TypeScriptIcon } from '@julianbgr/nextra/icons'
+      import { MarkdownIcon } from '@julianbgr/nextra/icons'
+      import { MdxIcon } from '@julianbgr/nextra/icons'
+      import { TerminalIcon } from '@julianbgr/nextra/icons'
+      import { CssIcon } from '@julianbgr/nextra/icons'
       function _createMdxContent(props) {
         const _components = {
           code: 'code',

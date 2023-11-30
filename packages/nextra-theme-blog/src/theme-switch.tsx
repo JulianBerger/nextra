@@ -1,5 +1,5 @@
-import { useMounted } from '@julianberger/nextra/hooks'
-import { MoonIcon, SunIcon } from '@julianberger/nextra/icons'
+import { useMounted } from '@julianbgr/nextra/hooks'
+import { MoonIcon, SunIcon } from '@julianbgr/nextra/icons'
 import { useTheme } from 'next-themes'
 
 export default function ThemeSwitch() {

@@ -116,10 +116,10 @@ describe('LaTeX', () => {
     it('should convert math inline', async () => {
       const { result } = await compileMdx(INLINE_MATH, options)
       expect(clean(result)).resolves.toMatchInlineSnapshot(`
-        "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+        "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
         const title = ''
         const frontMatter = {}
-        import { MathJax, MathJaxContext } from '@julianberger/nextra/components'
+        import { MathJax, MathJaxContext } from '@julianbgr/nextra/components'
         export function useTOC(props) {
           return []
         }
@@ -146,10 +146,10 @@ describe('LaTeX', () => {
     it('should convert ```math code block language', async () => {
       const { result } = await compileMdx(MATH_LANG, options)
       expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
-      import { MathJax, MathJaxContext } from '@julianberger/nextra/components'
+      import { MathJax, MathJaxContext } from '@julianbgr/nextra/components'
       export function useTOC(props) {
         return []
       }
@@ -176,12 +176,12 @@ export let bar
 ${MATH_LANG}`
       const { result } = await compileMdx(rawMdx, options)
       expect(clean(result)).resolves.toMatchInlineSnapshot(`
-        "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+        "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
         const title = ''
         const frontMatter = {}
         import foo from 'foo'
         export let bar
-        import { MathJax, MathJaxContext } from '@julianberger/nextra/components'
+        import { MathJax, MathJaxContext } from '@julianbgr/nextra/components'
         export function useTOC(props) {
           return []
         }

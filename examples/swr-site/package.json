@@ -16,8 +16,8 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@julianberger/nextra": "workspace:*",
-    "@julianberger/nextra-theme-docs": "workspace:*",
+    "@julianbgr/nextra": "workspace:*",
+    "@julianbgr/nextra-theme-docs": "workspace:*",
     "focus-visible": "^5.1.0",
     "intersection-observer": "^0.10.0",
     "markdown-to-jsx": "^6.11.4",
@@ -27,10 +27,10 @@
     "react-intersection-observer": "^8.26.2"
   },
   "dependenciesMeta": {
-    "@julianberger/nextra": {
+    "@julianbgr/nextra": {
       "injected": true
     },
-    "@julianberger/nextra-theme-docs": {
+    "@julianbgr/nextra-theme-docs": {
       "injected": true
     }
   },

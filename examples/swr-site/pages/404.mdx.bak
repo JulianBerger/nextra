@@ -1,5 +1,5 @@
-import { NotFoundPage } from '@julianberger/nextra-theme-docs'
-import { useRouter } from '@julianberger/nextra/hooks'
+import { NotFoundPage } from '@julianbgr/nextra-theme-docs'
+import { useRouter } from '@julianbgr/nextra/hooks'
 
 export function Page() {
   const { locale } = useRouter()

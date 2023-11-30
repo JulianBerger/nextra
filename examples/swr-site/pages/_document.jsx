@@ -1,5 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-import { SkipNavLink } from '@julianberger/nextra-theme-docs'
+import { SkipNavLink } from '@julianbgr/nextra-theme-docs'
 
 class MyDocument extends Document {
   render() {

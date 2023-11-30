@@ -1,4 +1,4 @@
-import { useRouter } from '@julianberger/nextra/hooks'
+import { useRouter } from '@julianbgr/nextra/hooks'
 import styles from './features.module.css'
 
 const Feature = ({ text, icon }) => (

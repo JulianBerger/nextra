@@ -1,5 +1,5 @@
-import { RemoteContent } from '@julianberger/nextra/components'
-import { buildDynamicMDX, buildDynamicMeta } from '@julianberger/nextra/remote'
+import { RemoteContent } from '@julianbgr/nextra/components'
+import { buildDynamicMDX, buildDynamicMeta } from '@julianbgr/nextra/remote'
 
 export const getStaticProps = async ({ params }) => {
   const token = process.env.GITHUB_TEST_REMOTE_MDX

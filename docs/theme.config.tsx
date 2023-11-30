@@ -1,5 +1,5 @@
-import type { DocsThemeConfig } from '@julianberger/nextra-theme-docs'
-import { useConfig } from '@julianberger/nextra-theme-docs'
+import type { DocsThemeConfig } from '@julianbgr/nextra-theme-docs'
+import { useConfig } from '@julianbgr/nextra-theme-docs'
 import { useRouter } from 'next/router'
 
 const logo = (

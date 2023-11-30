@@ -9,8 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@julianberger/nextra": "workspace:*",
-    "@julianberger/nextra-theme-docs": "workspace:*",
+    "@julianbgr/nextra": "workspace:*",
+    "@julianbgr/nextra-theme-docs": "workspace:*",
     "@vercel/og": "^0.5.0",
     "clsx": "^2.0.0",
     "framer-motion": "^10.0.0",

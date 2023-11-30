@@ -1,5 +1,5 @@
 {
-  "name": "@julianberger/nextra-theme-docs",
+  "name": "@julianbgr/nextra-theme-docs",
   "version": "3.0.0-alpha.11",
   "description": "A Nextra theme for documentation sites.",
   "repository": "https://github.com/shuding/nextra",
@@ -30,7 +30,7 @@
     "types:check": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@julianberger/nextra": "workspace:*",
+    "@julianbgr/nextra": "workspace:*",
     "next": ">=13",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
@@ -48,7 +48,7 @@
     "zod": "^3.22.3"
   },
   "devDependencies": {
-    "@julianberger/nextra": "workspace:*",
+    "@julianbgr/nextra": "workspace:*",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@testing-library/react": "^14.0.0",
     "@types/flexsearch": "^0.7.4",

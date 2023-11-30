@@ -21,7 +21,7 @@ bar[^1]
       opts
     )
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
       export function useTOC(props) {
@@ -100,7 +100,7 @@ bar[^1]
   it('should fill heading deeply', async () => {
     const { result } = await compileMdx(
       `
-import { Steps } from '@julianberger/nextra/components'
+import { Steps } from '@julianbgr/nextra/components'
 
 ## baz qux
 
@@ -113,10 +113,10 @@ import { Steps } from '@julianberger/nextra/components'
       opts
     )
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = ''
       const frontMatter = {}
-      import { Steps } from '@julianberger/nextra/components'
+      import { Steps } from '@julianbgr/nextra/components'
       export function useTOC(props) {
         return [
           {
@@ -185,7 +185,7 @@ export const frontMatter = {
       opts
     )
     expect(clean(result)).resolves.toMatchInlineSnapshot(`
-      "import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+      "import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
       const title = 'Heading 1'
       export const myVar = 'interpolated'
       export const Test = () => {
@@ -345,7 +345,7 @@ export const frontMatter = {
   describe('Remote MDX', () => {
     it("with outputFormat: 'program'", async () => {
       const rawMdx = `
-import { RemoteContent } from '@julianberger/nextra/components'
+import { RemoteContent } from '@julianbgr/nextra/components'
 
 ## hello
 
@@ -359,10 +359,10 @@ import { RemoteContent } from '@julianberger/nextra/components'
 
       expect(res).toMatchInlineSnapshot(`
         "/*@jsxRuntime automatic @jsxImportSource react*/
-        import { useMDXComponents as _provideComponents } from '@julianberger/nextra/mdx'
+        import { useMDXComponents as _provideComponents } from '@julianbgr/nextra/mdx'
         const title = '[[...slug]]'
         const frontMatter = {}
-        import { RemoteContent } from '@julianberger/nextra/components'
+        import { RemoteContent } from '@julianbgr/nextra/components'
         export function useTOC(props) {
           return [
             {

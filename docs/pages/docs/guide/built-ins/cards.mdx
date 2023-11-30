@@ -1,6 +1,6 @@
 import { CardsIcon, OneIcon, WarningIcon } from '@components/icons'
-import { Cards, RemoteContent } from '@julianberger/nextra/components'
-import { buildDynamicMDX } from '@julianberger/nextra/remote'
+import { Cards, RemoteContent } from '@julianbgr/nextra/components'
+import { buildDynamicMDX } from '@julianbgr/nextra/remote'
 
 export async function getStaticProps() {
   const mdx = `
@@ -30,7 +30,7 @@ ${mdx}
 ## Usage
 
 ~~~mdx filename="MDX"
-import { Cards } from '@julianberger/nextra/components'
+import { Cards } from '@julianbgr/nextra/components'
 import { CardsIcon, OneIcon, WarningIcon } from '../../icons'
 ${mdx}
 ~~~`)

@@ -1,5 +1,5 @@
-import { Code, Pre, Table, Td, Th, Tr } from '@julianberger/nextra/components'
-import type { MDXComponents } from '@julianberger/nextra/mdx'
+import { Code, Pre, Table, Td, Th, Tr } from '@julianbgr/nextra/components'
+import type { MDXComponents } from '@julianbgr/nextra/mdx'
 import Link from 'next/link'
 import type { ComponentProps, ReactElement, ReactNode, RefObject } from 'react'
 import {

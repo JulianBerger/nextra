@@ -1,4 +1,4 @@
-import type { Heading } from '@julianberger/nextra'
+import type { Heading } from '@julianbgr/nextra'
 import cn from 'clsx'
 import type { ReactElement } from 'react'
 import { useEffect, useRef } from 'react'
