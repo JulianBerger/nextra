@@ -1,4 +1,4 @@
-import { createCatchAllMeta } from 'nextra/catch-all'
+import { createCatchAllMeta } from '@julianberger/nextra/catch-all'
 import json from '../../../../nextra-remote-filepaths/graphql-yoga.json' assert { type: 'json' }
 
 export default () => {

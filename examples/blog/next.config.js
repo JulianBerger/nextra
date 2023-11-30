@@ -1,4 +1,4 @@
-import nextra from 'nextra'
+import nextra from '@julianberger/nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-blog',

@@ -1,6 +1,6 @@
+import { Code, Pre, Table, Td, Th, Tr } from '@julianberger/nextra/components'
+import type { MDXComponents } from '@julianberger/nextra/mdx'
 import Link from 'next/link'
-import { Code, Pre, Table, Td, Th, Tr } from 'nextra/components'
-import type { MDXComponents } from 'nextra/mdx'
 import type { ComponentProps, ReactElement, ReactNode, RefObject } from 'react'
 import {
   createContext,

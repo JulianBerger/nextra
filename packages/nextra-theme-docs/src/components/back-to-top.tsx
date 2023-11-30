@@ -1,5 +1,5 @@
+import { ArrowRightIcon } from '@julianberger/nextra/icons'
 import cn from 'clsx'
-import { ArrowRightIcon } from 'nextra/icons'
 import type { ReactElement } from 'react'
 import { useEffect, useRef } from 'react'
 

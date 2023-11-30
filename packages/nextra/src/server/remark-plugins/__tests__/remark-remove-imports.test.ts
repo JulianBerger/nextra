@@ -9,7 +9,7 @@ describe('remarkRemoveImports', () => {
   it('should fill heading deeply', async () => {
     const { result } = await compileMdx(
       `
-import { Steps } from 'nextra/components'
+import { Steps } from '@julianberger/nextra/components'
 
 export const myVar = 123
 

@@ -1,6 +1,6 @@
+import type { DocsThemeConfig } from '@julianberger/nextra-theme-docs'
+import { useConfig } from '@julianberger/nextra-theme-docs'
 import { useRouter } from 'next/router'
-import type { DocsThemeConfig } from 'nextra-theme-docs'
-import { useConfig } from 'nextra-theme-docs'
 
 const logo = (
   <svg

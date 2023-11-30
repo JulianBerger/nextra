@@ -1,4 +1,4 @@
-import { useConfig } from 'nextra-theme-docs'
+import { useConfig } from '@julianberger/nextra-theme-docs'
 
 /* eslint sort-keys: error */
 /**

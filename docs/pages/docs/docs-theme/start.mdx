@@ -1,5 +1,5 @@
 import { BoxIcon, GearIcon, RowsIcon } from '@components/icons'
-import { Callout, Cards, Steps } from 'nextra/components'
+import { Callout, Cards, Steps } from '@julianberger/nextra/components'
 
 # Docs Theme
 
@@ -57,7 +57,7 @@ npm i next react react-dom nextra nextra-theme-docs
 Create the following `next.config.mjs` file in your project’s root directory:
 
 ```js filename="next.config.mjs"
-import nextra from 'nextra'
+import nextra from '@julianberger/nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',

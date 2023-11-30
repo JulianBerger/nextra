@@ -1,4 +1,4 @@
-import { fetchFilePathsFromGitHub } from 'nextra/fetch-filepaths-from-github'
+import { fetchFilePathsFromGitHub } from '@julianberger/nextra/fetch-filepaths-from-github'
 
 fetchFilePathsFromGitHub({
   user: 'dotansimha',

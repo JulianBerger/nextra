@@ -20,7 +20,7 @@ Nextra works like a Next.js plugin, and it accepts a theme config (layout) to re
 3. Create the following Next.js config:
 
 ```js filename="next.config.mjs"
-import nextra from 'nextra'
+import nextra from '@julianberger/nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
@@ -60,7 +60,7 @@ export default {
 }
 ```
 
-import { Callout } from 'nextra/components'
+import { Callout } from '@julianberger/nextra/components'
 
 <Callout>
   More configuration options for the docs theme can be found

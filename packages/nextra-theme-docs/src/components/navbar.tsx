@@ -1,10 +1,10 @@
 import { Menu, Transition } from '@headlessui/react'
+import { useFSRoute } from '@julianberger/nextra/hooks'
+import { ArrowRightIcon, MenuIcon } from '@julianberger/nextra/icons'
+import type { MenuItem, PageItem } from '@julianberger/nextra/normalize-pages'
 import cn from 'clsx'
 // eslint-disable-next-line no-restricted-imports -- since we don't need newWindow prop
 import NextLink from 'next/link'
-import { useFSRoute } from 'nextra/hooks'
-import { ArrowRightIcon, MenuIcon } from 'nextra/icons'
-import type { MenuItem, PageItem } from 'nextra/normalize-pages'
 import type { ReactElement, ReactNode } from 'react'
 import { useMenu, useThemeConfig } from '../contexts'
 import { renderComponent } from '../utils'

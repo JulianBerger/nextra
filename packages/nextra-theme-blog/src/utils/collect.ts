@@ -1,5 +1,5 @@
+import type { MdxFile, PageMapItem } from '@julianberger/nextra'
 import { useRouter } from 'next/router'
-import type { MdxFile, PageMapItem } from 'nextra'
 import type { LayoutProps } from '../types'
 import { sortDate } from './date'
 import traverse from './traverse'

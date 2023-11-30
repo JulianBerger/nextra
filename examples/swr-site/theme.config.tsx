@@ -1,7 +1,7 @@
 /* eslint sort-keys: error */
-import type { DocsThemeConfig } from 'nextra-theme-docs'
-import { LocaleSwitch, useConfig } from 'nextra-theme-docs'
-import { useRouter } from 'nextra/hooks'
+import type { DocsThemeConfig } from '@julianberger/nextra-theme-docs'
+import { LocaleSwitch, useConfig } from '@julianberger/nextra-theme-docs'
+import { useRouter } from '@julianberger/nextra/hooks'
 import type { ComponentProps, ReactElement } from 'react'
 
 export const SWRLogo = (props: ComponentProps<'svg'>): ReactElement => (

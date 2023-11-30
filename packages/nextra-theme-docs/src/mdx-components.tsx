@@ -1,9 +1,9 @@
+import type { NextraMDXContent } from '@julianberger/nextra'
+import { Code, Pre, Table, Td, Th, Tr } from '@julianberger/nextra/components'
+import { useMounted } from '@julianberger/nextra/hooks'
+import { ArrowRightIcon } from '@julianberger/nextra/icons'
+import type { MDXComponents } from '@julianberger/nextra/mdx'
 import cn from 'clsx'
-import type { NextraMDXContent } from 'nextra'
-import { Code, Pre, Table, Td, Th, Tr } from 'nextra/components'
-import { useMounted } from 'nextra/hooks'
-import { ArrowRightIcon } from 'nextra/icons'
-import type { MDXComponents } from 'nextra/mdx'
 import type { ComponentProps, ReactElement, ReactNode } from 'react'
 import {
   Children,

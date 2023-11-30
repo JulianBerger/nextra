@@ -172,8 +172,8 @@
 
 ### Minor Changes
 
-- 0fe55db2: add `import { useRouter } from 'nextra/hooks'` for fetching `locale`
-  and `defaultLocale`
+- 0fe55db2: add `import { useRouter } from '@julianberger/nextra/hooks'` for
+  fetching `locale` and `defaultLocale`
 
 ### Patch Changes
 
@@ -355,19 +355,19 @@
   and `nextra-theme-docs`
 
   ```js
-  import { Card, Cards } from 'nextra/components'
+  import { Card, Cards } from '@julianberger/nextra/components'
   ```
 
   ```js
-  import { Tab, Tabs } from 'nextra/components'
+  import { Tab, Tabs } from '@julianberger/nextra/components'
   ```
 
   ```js
-  import { Steps } from 'nextra/components'
+  import { Steps } from '@julianberger/nextra/components'
   ```
 
   ```js
-  import { FileTree } from 'nextra/components'
+  import { FileTree } from '@julianberger/nextra/components'
   ```
 
 ### Patch Changes
@@ -943,14 +943,20 @@
 - 582ad96: feat: bump `rehype-pretty-code` version, support `showLineNumbers`
 - da998e6: move react components to `components` folder and replace exports:
   ```ts
-  import Bleed from 'nextra-theme-docs/bleed'
-  import Callout from 'nextra-theme-docs/callout'
-  import Collapse from 'nextra-theme-docs/collapse'
-  import { Tab, Tabs } from 'nextra-theme-docs/tabs'
+  import Bleed from '@julianberger/nextra-theme-docs/bleed'
+  import Callout from '@julianberger/nextra-theme-docs/callout'
+  import Collapse from '@julianberger/nextra-theme-docs/collapse'
+  import { Tab, Tabs } from '@julianberger/nextra-theme-docs/tabs'
   ```
   by
   ```ts
-  import { Bleed, Callout, Collapse, Tab, Tabs } from 'nextra-theme-docs'
+  import {
+    Bleed,
+    Callout,
+    Collapse,
+    Tab,
+    Tabs
+  } from '@julianberger/nextra-theme-docs'
   ```
 - e6771ca: move `withLayout` logic directly in nextra loader
 - 8ad9507: fix unable expanding folder items in sidebar
@@ -972,7 +978,8 @@
 - f99bbc2: Add `nextra-body-typesetting-article` back
 - e6771ca: fix search input `ESC` icon vertical alignment
 - 5b01537: Fix full docs directory list and active link
-- 06aa62f: feat: allow `import { getComponents } from 'nextra-theme-docs'`
+- 06aa62f: feat: allow
+  `import { getComponents } from '@julianberger/nextra-theme-docs'`
 
 ## 2.0.0-beta.45
 
@@ -1270,14 +1277,20 @@
 - 48e0ac2: export `useConfig` and `useTheme`
 - da998e6: move react components to `components` folder and replace exports:
   ```ts
-  import Bleed from 'nextra-theme-docs/bleed'
-  import Callout from 'nextra-theme-docs/callout'
-  import Collapse from 'nextra-theme-docs/collapse'
-  import { Tab, Tabs } from 'nextra-theme-docs/tabs'
+  import Bleed from '@julianberger/nextra-theme-docs/bleed'
+  import Callout from '@julianberger/nextra-theme-docs/callout'
+  import Collapse from '@julianberger/nextra-theme-docs/collapse'
+  import { Tab, Tabs } from '@julianberger/nextra-theme-docs/tabs'
   ```
   by
   ```ts
-  import { Bleed, Callout, Collapse, Tab, Tabs } from 'nextra-theme-docs'
+  import {
+    Bleed,
+    Callout,
+    Collapse,
+    Tab,
+    Tabs
+  } from '@julianberger/nextra-theme-docs'
   ```
 - 43409ad: fix: mdx theme is missing
 
@@ -1302,7 +1315,8 @@
 - cb87709: Fix flexsearch option being overridden
 - 4157b71: set lower build target and share code highlight theme through nextra
 - 6a4a593: fix: #531 unclickable breadcrumb
-- 06aa62f: feat: allow `import { getComponents } from 'nextra-theme-docs'`
+- 06aa62f: feat: allow
+  `import { getComponents } from '@julianberger/nextra-theme-docs'`
 
 ## 2.0.0-beta.12
 

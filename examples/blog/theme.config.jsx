@@ -1,4 +1,4 @@
-import Cusdis from 'nextra-theme-blog/cusdis'
+import Cusdis from '@julianberger/nextra-theme-blog/cusdis'
 
 /* eslint sort-keys: error */
 export default {

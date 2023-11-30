@@ -1,5 +1,5 @@
+import { XIcon } from '@julianberger/nextra/icons'
 import cn from 'clsx'
-import { XIcon } from 'nextra/icons'
 import type { ReactElement } from 'react'
 import { useThemeConfig } from '../contexts'
 import { renderComponent } from '../utils'
